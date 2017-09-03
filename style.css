@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed|Roboto');
+
+body {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	font-size: 1.6em;
+	color: #fff;
+	background-color: #BDC1C3;
+	background-image: url(sfondo.gif);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-top: auto;
+}
+
+.page-wrapper {
+	background-color: #BDC1C3;
+	border-left: 5px solid #191817;
+	border-bottom: 5px solid #191817;
+	border-radius: 50px 0px 10px 10px; 
+	padding: 30px;
+	width: 1100px;
+	margin: 0% 130px 0%;
+}
+
+
+.summary, .preamble {
+	width: 500px;
+	padding-left: 20px;
+	padding-top: 20px;
+	
+}
+
+.participation, .requirements{
+	width: 600px;
+	padding-left: 20px;
+	padding-top: 20px;
+} 
+
+
+.sidebar {
+	position: absolute;
+	top: 150px;
+	margin-left: 700px;
+	width: 280px;
+}
+
+.summary{
+	text-align: justify;
+	padding-left: 110px;
+	padding-top: 18px;
+}
+
+.summary :first-child{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.summary :last-child{
+	font-variant: small-caps; 
+	
+}
+
+.supporting, .preamble {
+	display: inline-block;
+	width: 60%;
+	}
+
+.explanation˙{
+	position: relative;
+	top: -800%;
+}
+
+footer {
+	text-align: center;
+	background-color: #D9D6D6 ;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+h1{
+	color: #D9D7D5;
+	font-size: 50px;
+
+}
+
+h1:hover {
+	color: #EAE8E7;
+	}
+
+h2, h3 {
+	color: #EDEBE9;
+	}
+
+h3 {
+	font-size: 30px;
+	}
+
+aside h3 {
+	text-align: center;
+	background: #B5B4B2;
+	border-top: 2px solid #0A0A09;
+	border-radius: 0px 5px 0px 0px;
+	text-transform: uppercase;	
+}
+
+a{
+	color: #000000;
+	font-size: 28px;
+}
+
+a:visited {
+	color: #766363;
+}
